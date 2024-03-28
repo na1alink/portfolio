@@ -1,0 +1,14 @@
+.nav__list {
+  display: flex;
+  justify-content: right;
+  gap: 40px;
+  padding: 10px;
+
+  a {
+    color: #fff;
+  }
+  a:hover,
+  a.active {
+    color: #181818;
+  }
+}
